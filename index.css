@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#homeText{
+    font-size: 40px;
+    width: 149px;
+    height: 36px;
+}
+
+#homeScore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    background: #080001;
+    color: #F94F6D;
+}
+
+#guestText{
+    font-size: 40px;
+    width: 149px;
+    height: 36px;
+}
+
+#guestScore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    background: #080001;
+    color: #F94F6D;
+}
+
+button{
+    margin-top: -271px;
+    width: 45px;
+    height: 45px;
+    background: none;
+    color: #9AABD8;
+    border: 2px solid  #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400px;
+}

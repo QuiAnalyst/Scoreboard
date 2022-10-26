@@ -15,7 +15,7 @@ function homeScoreadd2(){
 
 function homeScoreadd3(){
     homeCount +=3;
-    homeScoreEL.textContent = homecount;
+    homeScoreEL.textContent = homeCount;
 }
 
 function guestScoreadd1(){

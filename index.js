@@ -1,33 +1,34 @@
 let homeScoreEL = document.getElementById("homeScore");
 let guestScoreEL = document.getElementById("guestScore");
-let count = 0;
+let homeCount = 0;
+let guestCount = 0;
 
 function homeScoreadd1(){
-    count +=1;
-    homeScoreEL.textContent = count;
+    homeCount +=1;
+    homeScoreEL.textContent = homeCount;
 }
 
 function homeScoreadd2(){
-    count +=2;
-    homeScoreEL.textContent = count;
+    homeCount +=2;
+    homeScoreEL.textContent = homeCount;
 }
 
 function homeScoreadd3(){
-    count +=3;
-    homeScoreEL.textContent = count;
+    homeCount +=3;
+    homeScoreEL.textContent = homecount;
 }
 
 function guestScoreadd1(){
-    count +=1;
-    guestScoreEL.textContent = count
+    guestCount +=1;
+    guestScoreEL.textContent = guestCount;
 }
 
 function guestScoreadd2(){
-    count +=2;
-    guestScoreEL.textContent = count
+    guestCount +=2;
+    guestScoreEL.textContent = guestCount;
 }
 
 function guestScoreadd3(){
-    count +=3;
-    guestScoreEL.textContent = count
+    guestCount +=3;
+    guestScoreEL.textContent = guestCount;
 }
